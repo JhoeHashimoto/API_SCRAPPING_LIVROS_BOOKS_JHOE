@@ -1,26 +1,28 @@
-# API de Recomendação de Livros
+# API de Scrapping de Livros e ML
 
 Este projeto implementa uma API Flask para servir dados de livros extraídos por web scraping do site `books.toscrape.com`.
 
 ## Setup Local
 
-<!-- PIPELINEMLONPREMISSES/
-├── .env                # Arquivo de variáveis de ambiente (local)
-├── .venv/              # Ambiente virtual Python
-├── app.py              # Ponto de entrada da aplicação Flask (a API)
-├── instance/
-│   └── books.db        # Banco de dados (Ex: SQLite, gerado pela app)
-├── README.md           # Este arquivo
-├── requirements.txt    # Dependências do projeto
-├── scripts/            # Scripts de-para (ETL, scraping, etc.)
-│   ├── configs/
-│   ├── docstream/
-│   └── scrapper/       # Módulo do web scraper
-├── STORAGE_DATA/
-│   └── RAW_ZONE/       # Destino dos dados brutos do scraping
-│       ├── 2025-10-25.../
-│       └── ...
-└── vercel.json         # Configuração de deploy para a Vercel -->
+    ```bash
+    API_SCRAPPING_LIVROS_BOOKS_JHOE/
+    ├── .env                # Arquivo de variáveis de ambiente (local)
+    ├── .venv/              # Ambiente virtual Python
+    ├── app.py              # Ponto de entrada da aplicação Flask (a API)
+    ├── instance/
+    │   └── books.db        # Banco de dados (Ex: SQLite, gerado pela app)
+    ├── README.md           # Este arquivo
+    ├── requirements.txt    # Dependências do projeto
+    ├── scripts/            # Scripts de-para (ETL, scraping, etc.)
+    │   ├── configs/
+    │   ├── docstream/
+    │   └── scrapper/       # Módulo do web scraper
+    ├── STORAGE_DATA/
+    │   └── RAW_ZONE/       # Destino dos dados brutos do scraping
+    │       ├── 2025-10-25.../
+    │       └── ...
+    └── vercel.json         # Configuração de deploy para a Vercel
+    ```
 
 1.  **Crie um ambiente virtual:**
     ```bash
