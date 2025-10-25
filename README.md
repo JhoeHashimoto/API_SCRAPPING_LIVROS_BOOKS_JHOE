@@ -4,7 +4,7 @@ Este projeto implementa uma API Flask para servir dados de livros extraídos por
 
 ## Setup Local
 
-    ```bash
+    ```
     API_SCRAPPING_LIVROS_BOOKS_JHOE/
     ├── .env                # Arquivo de variáveis de ambiente (local)
     ├── .venv/              # Ambiente virtual Python
