@@ -51,7 +51,7 @@ Este projeto implementa uma API Flask para servir dados de livros extraídos por
 
 6.  **O scrapping é realizado através do endpoint**
     ```bash
-    A API é ativado através de um POST em `/api/v1/scraping/trigger`.
+    POST em `/api/v1/scraping/trigger`.
     ```
 
 ## Deploy na Vercel
