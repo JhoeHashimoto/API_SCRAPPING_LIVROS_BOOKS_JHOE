@@ -1,0 +1,55 @@
+# API de Recomendação de Livros
+
+Este projeto implementa uma API Flask para servir dados de livros extraídos por web scraping do site `books.toscrape.com`.
+
+## Setup Local
+
+<!-- PIPELINEMLONPREMISSES/
+├── .env                # Arquivo de variáveis de ambiente (local)
+├── .venv/              # Ambiente virtual Python
+├── app.py              # Ponto de entrada da aplicação Flask (a API)
+├── instance/
+│   └── books.db        # Banco de dados (Ex: SQLite, gerado pela app)
+├── README.md           # Este arquivo
+├── requirements.txt    # Dependências do projeto
+├── scripts/            # Scripts de-para (ETL, scraping, etc.)
+│   ├── configs/
+│   ├── docstream/
+│   └── scrapper/       # Módulo do web scraper
+├── STORAGE_DATA/
+│   └── RAW_ZONE/       # Destino dos dados brutos do scraping
+│       ├── 2025-10-25.../
+│       └── ...
+└── vercel.json         # Configuração de deploy para a Vercel -->
+
+1.  **Crie um ambiente virtual:**
+    ```bash
+    python -m venv venv
+    source venv/bin/activate  # (ou .\\venv\\Scripts\\activate no Windows)
+    ```
+
+2.  **Instale as dependências:**
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+3.  **Execute a subida da API:**
+    ```bash
+    python app.py
+    ```
+
+5.  **Inicie a API (Modo de Debug):**
+    ```bash
+    flask run
+    ```
+    A API estará disponível em `http://127.0.0.1:5000`.
+    A documentação do Swagger estará em `http://127.0.0.1:5000/apidocs`.
+
+## Deploy na Vercel
+
+1.  Faça o push do seu código para um repositório (GitHub, GitLab, etc.).
+2.  Importe o projeto no dashboard da Vercel.
+3.  Configure as Variáveis de Ambiente do projeto:
+    * `JWT_SECRET_KEY`: (use o mesmo valor do seu `.env`)
+4.  Faça o deploy.
+
