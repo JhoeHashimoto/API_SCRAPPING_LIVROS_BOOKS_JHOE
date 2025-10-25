@@ -48,6 +48,12 @@ Este projeto implementa uma API Flask para servir dados de livros extraídos por
     A API estará disponível em `http://127.0.0.1:5000`.
     A documentação do Swagger estará em `http://127.0.0.1:5000/apidocs`.
 
+
+6.  **O scrapping é realizado através do endpoint**
+    ```bash
+    A API é ativado através de um POST em `/api/v1/scraping/trigger`.
+    ```
+
 ## Deploy na Vercel
 
 1.  Faça o push do seu código para um repositório (GitHub, GitLab, etc.).
