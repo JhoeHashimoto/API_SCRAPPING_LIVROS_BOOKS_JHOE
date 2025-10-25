@@ -52,7 +52,5 @@ Este projeto implementa uma API Flask para servir dados de livros extraídos por
 
 1.  Faça o push do seu código para um repositório (GitHub, GitLab, etc.).
 2.  Importe o projeto no dashboard da Vercel.
-3.  Configure as Variáveis de Ambiente do projeto:
-    * `JWT_SECRET_KEY`: (use o mesmo valor do seu `.env`)
-4.  Faça o deploy.
+3.  Faça o deploy.
 
