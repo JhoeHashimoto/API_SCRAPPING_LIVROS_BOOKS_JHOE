@@ -26,6 +26,7 @@ Este projeto implementa uma API Flask para servir dados de livros extraídos por
     ```bash
     python -m venv venv
     source venv/bin/activate  # (ou .\\venv\\Scripts\\activate no Windows)
+    venv\Scripts\activate    #CMD
     ```
 
 2.  **Instale as dependências:**
