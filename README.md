@@ -63,7 +63,7 @@ Responsável por iniciar o processo de raspagem dos dados diretamente do site de
 
 | Método | Endpoint | Descrição | Função Interna |
 |:--------|:----------|:-----------|:----------------|
-| **POST** | `/api/v1/scraping/trigger` | Executa o scraper e armazena os dados em `/tmp` e no banco H2. | `run_scrapper` |
+| **POST** | `/api/v1/scraping/trigger` | Executa o scraper e armazena os dados em `STAGE RAW CSV` e no banco H2. | `run_scrapper` |
 
 ---
 
@@ -120,8 +120,8 @@ Exemplo:
     ```bash
     flask run
     ```
-    A API estará disponível em `http://127.0.0.1:5000`.
-    A documentação do Swagger estará em `http://127.0.0.1:5000/apidocs`.
+    A API estará disponível em `localhost:5000`.
+    A documentação do Swagger estará em `localhost/apidocs`.
 
 
 6.  **O scrapping é realizado através do endpoint**
@@ -129,9 +129,4 @@ Exemplo:
     POST em `/api/v1/scraping/trigger`.
     ```
 
-## Deploy na Vercel
-
-1.  Faça o push do seu código para um repositório (GitHub, GitLab, etc.).
-2.  Importe o projeto no dashboard da Vercel.
-3.  Faça o deploy.
 
