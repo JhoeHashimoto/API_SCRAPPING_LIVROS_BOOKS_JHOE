@@ -35,8 +35,8 @@ O projeto possui um link de deploy hospedado na Vercel, assim como possibilita a
 
 Gerencia o acesso e autenticação de usuários via JWT.
 
-| Método | Endpoint | Descrição | Função Interna |
-|:--------|:----------|:-----------|:----------------|
+| Método | Endpoint | Descrição | Função Interna | Premissa de uso
+|:--------|:----------|:-----------|:----------------| :----------------|
 | **POST** | `/api/v1/auth/register` | Registra um novo usuário no sistema. | `post_api_v1_auth_register` | -Necessidade de encaminhar o raw body json: {"username": "Jhoe","password": "1234"}
 | **POST** | `/api/v1/auth/login` | Autentica o usuário e retorna o token JWT. | `post_api_v1_auth_login` | -Necessidade de encaminhar o raw body json: {"username": "Jhoe","password": "1234"}
 | **POST** | `/api/v1/auth/refresh` | Atualiza o token JWT expirado. | `post_api_v1_auth_refresh` | -Necessidade de utilizar o segundo token gerado no login
