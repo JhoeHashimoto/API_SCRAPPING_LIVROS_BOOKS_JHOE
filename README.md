@@ -2,6 +2,10 @@
 
 Este projeto implementa uma API Flask para servir dados de livros extraídos por web scraping do site `books.toscrape.com`.
 
+## DIAGRAMA ARQUITETURAL
+
+![Arquitetura da API](api-scraper-books-jhoe.drawio.png)
+
 ## Setup Local (rodar on-premises)
 
     ```
