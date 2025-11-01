@@ -6,7 +6,7 @@ Este projeto implementa uma API Flask para servir dados de livros extraídos por
 
 ![Arquitetura da API](api-scraper-books-jhoe.drawio.png)
 
-## Setup Local (rodar on-premises)
+## Estrutura de pastas
 
     ```
     API_SCRAPPING_LIVROS_BOOKS_JHOE/
@@ -27,6 +27,20 @@ Este projeto implementa uma API Flask para servir dados de livros extraídos por
     │       └── ...
     └── vercel.json         # Configuração de deploy para a Vercel
     ```
+    
+## CONFIGURAÇÃO ACESSAR ENDPOINT (Vercel)
+
+1. **DOMÍNIO**
+   ```bash
+   https://apiscrapingjhoe.vercel.app/
+   ```
+   
+2. **DOCUMENTAÇÃO ENDPOINTS**
+   ```bash
+   https://apiscrapingjhoe.vercel.app/apidocs/
+   ```
+    
+## CONFIGURAÇÃO EXECUÇÃO LOCAL (on-premises)
 
 1.  **Crie um ambiente virtual:**
     ```bash
