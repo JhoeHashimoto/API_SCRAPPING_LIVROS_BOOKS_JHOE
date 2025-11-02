@@ -132,4 +132,11 @@ A documentação interativa gerada pelo **Flasgger** pode ser acessada em:
     POST em `/api/v1/scraping/trigger`.
     ```
 
+# Google Cloud 
+
+```bash
+<img width="1860" height="934" alt="image" src="https://github.com/user-attachments/assets/57565510-04a6-4332-9cef-4e955c39a33a" />
+```
+
+`https://www.skills.google/public_profiles/d17645c1-b0fd-42c6-a806-9513736f7aa5`
 
