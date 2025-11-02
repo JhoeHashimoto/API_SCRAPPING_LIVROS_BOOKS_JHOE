@@ -133,7 +133,7 @@ A documentação interativa gerada pelo **Flasgger** pode ser acessada em:
     ```
 
 # Google Cloud 
-
+## Beginner: Introduction to Generative AI Learning Path
 ![Captura de tela](https://raw.githubusercontent.com/JhoeHashimoto/API_SCRAPPING_LIVROS_BOOKS_JHOE/main/Captura%20de%20tela%202025-11-01%20234008.png)
 
 `https://www.skills.google/public_profiles/d17645c1-b0fd-42c6-a806-9513736f7aa5`
